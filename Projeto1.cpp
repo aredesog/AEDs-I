@@ -580,7 +580,7 @@ void listarImoveis(Imovel Imoveis[], int quantidade) {
 
 int main(){
     
-    ifstream informacoes("../data/BD_Imoveis2.txt");
+    ifstream informacoes("BD_Imoveis2.txt");
     if (!informacoes) {
         cout << "Erro ao abrir o arquivo" << endl;
         return 1;
@@ -738,8 +738,4 @@ int main(){
     }
     cout << "Saindo do programa..." << endl;
     return 0;
-<<<<<<< HEAD
-} 
-=======
-} 
->>>>>>> 9052287fe500095fef6155952294f92d60cd1377
+}
