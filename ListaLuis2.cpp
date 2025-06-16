@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int main() {
+/*int main() {
     int vetor[50];
     srand(time(NULL)); // Inicializa o gerador de números aleatórios
 
@@ -17,6 +17,8 @@ int main() {
     int opcao = 3;
     cout << "Escolha uma opcao: \n";
     cout << "1-Ver o maior e menor valor do vetror:" << endl;
+    cout << "2-Ver a media dos valores do vetor:" << endl;
+    cout << "3-Sair" << endl;
     cin >> opcao;
     switch (opcao){
         
@@ -43,8 +45,40 @@ int main() {
     cout << "Menor valor: " << menor << endl;
 break;
 
+case 2:
+{
+    float media = 0;
+    for (int i = 0; i < 50; i++) {
+        media += vetor[i];
+    }
+    media /= 50;
+    cout << "Media dos valores: " << media << endl;
+}
+break;
+case 3:
+{
 
 
     return 0;
 }
+}*/
+
+int main(){
+
+    float nota1, nota2, media;
+    int matricula, turma[30];
+
+    for(int i = 0; i < 30; i++){
+
+        turma[i] = matricula;
+        media = (nota1 + nota2) / 2;
+        cin >>matricula;
+        cin >> nota1 >> nota2;
+        media = (nota1 + nota2) / 2;
+        cout << "O aluno " << matricula << " teve media " << media << endl;
+    }
+   
+
+
+    return 0;
 }
