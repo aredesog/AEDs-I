@@ -1,9 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <stdio.h>
-#include <time.h>
-#include <fstream>
-#include <string.h>
 
 using namespace std;
 
